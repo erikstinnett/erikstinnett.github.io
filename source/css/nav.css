@@ -1,0 +1,72 @@
+/*
+- globalized font sizes
+- what units for font
+*/
+/* Use REM for font*/
+
+/* nav {
+  padding: 5px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  z-index: 1;
+} */
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* background-color: rgba(
+    30,
+    45,
+    58,
+    0.8
+  ); semi-transparent dark background */
+  padding: 1rem 0;
+  z-index: 999;
+  /* backdrop-filter: blur(6px); */
+}
+
+nav ul {
+  display: flex;
+  justify-content: center; /* Center entire row */
+  align-items: center; /* Align items vertically */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 5rem; /* Space between items */
+  background-color: greeen;
+}
+
+nav ul li {
+  flex: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #a8dadc; /* Light blue hover effect */
+}
+
+nav ul li img {
+  height: 50px;
+  width: auto;
+  display: block;
+}
+#navbar {
+  transition: background-color 0.5s ease;
+}
+#navbar.scrolled {
+  background-color: var(--accent-blue);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
