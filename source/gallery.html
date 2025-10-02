@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery · Stinnett Photography</title>
+    <link rel="stylesheet" href="../source/css/static.css" />
+    <link rel="stylesheet" href="../source/css/nav.css" />
+    <link rel="stylesheet" href="../source/css/footer.css" />
+    <link rel="stylesheet" href="../source/css/colors.css" />
+    <link rel="stylesheet" href="../source/css/gallery.css" />
+  </head>
+  <body>
+    <!-- Navbar (uses your existing nav.css) -->
+    <div class="nav-container">
+      <nav id="navbar">
+        <div class="nav-wrapper">
+          <button class="hamburger" aria-label="Menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+          <ul class="nav-links">
+            <li><a href="#">Gallery</a></li>
+            <li><a href="/source/about.html">About</a></li>
+            <li class="logo">
+              <a href="/source/index.html"
+                ><img
+                  src="/imgs/static/logo_white_transparent-comp.png"
+                  alt="Site Logo"
+              /></a>
+            </li>
+            <li><a href="/source/services.html">Services</a></li>
+            <li><a href="https://872f29.myshopify.com/">Shop</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Hero -->
+    <header class="hero">
+      <div class="container">
+        <h1>Gallery</h1>
+        <p>
+          A selection of engagements, special occasions, and my favorite
+          landscape shots. Click any image to view larger.
+        </p>
+      </div>
+    </header>
+
+    <main class="container" style="padding: 1.5rem 0 2.5rem">
+      <!-- Filters -->
+      <div class="filters" role="tablist" aria-label="Filter gallery">
+        <button
+          class="filter-btn"
+          role="tab"
+          aria-pressed="true"
+          data-filter="all"
+        >
+          All
+        </button>
+        <button
+          class="filter-btn"
+          role="tab"
+          aria-pressed="false"
+          data-filter="engagements"
+        >
+          Engagements
+        </button>
+        <button
+          class="filter-btn"
+          role="tab"
+          aria-pressed="false"
+          data-filter="occasions"
+        >
+          Special Occasions
+        </button>
+        <button
+          class="filter-btn"
+          role="tab"
+          aria-pressed="false"
+          data-filter="landscapes"
+        >
+          Landscape
+        </button>
+      </div>
+
+      <!-- Grid -->
+      <section class="grid" id="gallery" aria-live="polite">
+        <figure class="card" data-category="landscapes">
+          <img
+            src="/imgs/gallery/land-7.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="occasions">
+          <img
+            src="/imgs/gallery/spec-10.jpg"
+            alt="Anniversary picnic"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="engagements">
+          <img
+            src="/imgs/gallery/eng-4.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="landscapes">
+          <img
+            src="/imgs/gallery/land-3.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+        <figure class="card" data-category="engagements">
+          <img
+            src="/imgs/gallery/eng-15.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="landscapes">
+          <img
+            src="/imgs/gallery/land-6.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="engagements">
+          <img
+            src="/imgs/gallery/eng-7.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="occasions">
+          <img
+            src="/imgs/gallery/spec-5.jpg"
+            alt="Anniversary picnic"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="landscapes">
+          <img
+            src="/imgs/gallery/land-9.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="engagements">
+          <img
+            src="/imgs/gallery/eng-11.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="occasions">
+          <img
+            src="/imgs/gallery/spec-7.jpg"
+            alt="Anniversary picnic"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="landscapes">
+          <img
+            src="/imgs/gallery/land.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="engagements">
+          <img
+            src="/imgs/gallery/eng-6.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="landscapes">
+          <img
+            src="/imgs/gallery/land-8.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="occasions">
+          <img
+            src="/imgs/gallery/spec-11.jpg"
+            alt="Anniversary picnic"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="engagements">
+          <img
+            src="/imgs/gallery/eng-2.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="landscapes">
+          <img
+            src="/imgs/gallery/land-10.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="occasions">
+          <img
+            src="/imgs/gallery/spec-8.jpg"
+            alt="Anniversary picnic"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="engagements">
+          <img
+            src="/imgs/gallery/eng-9.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="landscapes">
+          <img
+            src="/imgs/gallery/land-2.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="occasions">
+          <img
+            src="/imgs/gallery/spec-6.jpg"
+            alt="Anniversary picnic"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="engagements">
+          <img
+            src="/imgs/gallery/eng-13.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="landscapes">
+          <img
+            src="/imgs/gallery/lamd.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="occasions">
+          <img
+            src="/imgs/gallery/spec-4.jpg"
+            alt="Anniversary picnic"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="engagements">
+          <img
+            src="/imgs/gallery/eng-16.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="landscapes">
+          <img
+            src="/imgs/gallery/land-4.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="occasions">
+          <img
+            src="/imgs/gallery/spec-9.jpg"
+            alt="Anniversary picnic"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="engagements">
+          <img
+            src="/imgs/gallery/eng-3.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="landscapes">
+          <img
+            src="/imgs/gallery/land-5.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="engagements">
+          <img
+            src="/imgs/gallery/eng-14.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="occasions">
+          <img
+            src="/imgs/gallery/spec-5.jpg"
+            alt="Anniversary picnic"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="engagements">
+          <img
+            src="/imgs/gallery/eng-8.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="landscapes">
+          <img
+            src="/imgs/gallery/land-9.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+
+        <figure class="card" data-category="engagements">
+          <img
+            src="/imgs/gallery/eng-12.jpg"
+            alt="Engagement couple at sunset"
+            loading="lazy"
+          />
+        </figure>
+      </section>
+    </main>
+
+    <!-- Lightbox -->
+    <div
+      class="lightbox"
+      id="lightbox"
+      aria-modal="true"
+      role="dialog"
+      aria-label="Image viewer"
+    >
+      <button class="lb-close" aria-label="Close">✕</button>
+      <button class="lb-prev" aria-label="Previous">❮</button>
+      <img class="lb-img" alt="" />
+      <button class="lb-next" aria-label="Next">❯</button>
+      <div class="lb-caption" id="lb-caption"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <h1>Stinnett Photography</h1>
+      <div class="footer-containers">
+        <div class="footer-left-container">
+          <div class="footer-links" id="footer-left-links">
+            <a href="/source/index.html">Home</a>
+            <a href="#">Gallery</a>
+            <a href="/source/about.html">About</a>
+            <a href="/source/services.html">Services</a>
+            <a href="#">Prints</a>
+          </div>
+        </div>
+        <div class="footer-right-container">
+          <div class="footer-links" id="footer-right-links">
+            <a href="https://www.instagram.com/erik.stinnett"
+              ><img src="/imgs/static/instagram-icon-white.svg" alt="" /><span
+                >erik.stinnett</span
+              ></a
+            >
+            <a href="mailto:erik.stinnett@icloud.com"
+              ><img src="/imgs/static/email-icon-white.svg" alt="" /><span
+                >erik.stinnett@icloud.com</span
+              ></a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/source/scripts/nav.js"></script>
+    <script>
+      // Filtering
+      const buttons = document.querySelectorAll(".filter-btn");
+      const cards = document.querySelectorAll(".grid .card");
+      buttons.forEach((btn) =>
+        btn.addEventListener("click", () => {
+          buttons.forEach((b) => b.setAttribute("aria-pressed", "false"));
+          btn.setAttribute("aria-pressed", "true");
+          const f = btn.dataset.filter;
+          cards.forEach((c) => {
+            c.style.display =
+              f === "all" || c.dataset.category === f ? "" : "none";
+          });
+        })
+      );
+
+      // Lightbox
+      const lb = document.getElementById("lightbox");
+      const lbImg = lb.querySelector(".lb-img");
+      const lbCap = lb.querySelector("#lb-caption");
+      const prev = lb.querySelector(".lb-prev");
+      const next = lb.querySelector(".lb-next");
+      const closeBtn = lb.querySelector(".lb-close");
+
+      let currentIndex = -1;
+      const figures = [...document.querySelectorAll(".grid .card")];
+
+      function openLB(i) {
+        const fig = figures[i];
+        if (!fig) return;
+        const img = fig.querySelector("img");
+        lbImg.src = img.src;
+        lbImg.alt = img.alt;
+        lbCap.textContent = fig.querySelector(".caption")?.textContent || "";
+        currentIndex = i;
+        lb.classList.add("is-open");
+        document.body.style.overflow = "hidden";
+      }
+      function closeLB() {
+        lb.classList.remove("is-open");
+        document.body.style.overflow = "";
+      }
+      function step(dir) {
+        const visible = figures.filter((f) => f.style.display !== "none");
+        const idx = visible.indexOf(figures[currentIndex]);
+        const nextIdx = (idx + dir + visible.length) % visible.length;
+        const realIndex = figures.indexOf(visible[nextIdx]);
+        openLB(realIndex);
+      }
+
+      figures.forEach((fig, i) => {
+        fig.addEventListener("click", () => openLB(i));
+        fig.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") openLB(i);
+        });
+        fig.tabIndex = 0;
+      });
+
+      closeBtn.addEventListener("click", closeLB);
+      lb.addEventListener("click", (e) => {
+        if (e.target === lb) closeLB();
+      });
+      prev.addEventListener("click", () => step(-1));
+      next.addEventListener("click", () => step(1));
+      window.addEventListener("keydown", (e) => {
+        if (!lb.classList.contains("is-open")) return;
+        if (e.key === "Escape") closeLB();
+        if (e.key === "ArrowLeft") step(-1);
+        if (e.key === "ArrowRight") step(1);
+      });
+    </script>
+  </body>
+</html>

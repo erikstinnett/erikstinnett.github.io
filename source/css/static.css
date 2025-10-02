@@ -1,0 +1,17 @@
+html {
+  font-size: 16px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  background-color: var(--accent-blue);
+  height: 200vh;
+}
+
+/* Main container for all pages */
+.main-container {
+  background-color: yeellow;
+  margin: auto;
+  margin-top: 2%;
+}

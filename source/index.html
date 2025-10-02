@@ -1,11 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/static.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/footer.css" />
     <title>Stinnett Photography</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="nav-img-container">
+      <div class="nav-container">
+        <nav id="navbar">
+          <div class="nav-wrapper">
+            <button class="hamburger" aria-label="Menu" aria-expanded="false">
+              <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+              <li>
+                <a href="/source/gallery.html">Gallery</a>
+              </li>
+              <li>
+                <a href="/source/about.html">About</a>
+              </li>
+              <li class="logo">
+                <a href="/source/index.html">
+                  <img
+                    src="/imgs/static/logo_white_transparent-comp.png"
+                    alt="Site Logo"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="/source/services.html">Services</a>
+              </li>
+              <li>
+                <a href="https://872f29.myshopify.com/">Shop</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="hero-container">
+        <img
+          class="hero-img"
+          src="/imgs/static/logo_white_transparent-hero.png"
+          alt=""
+        />
+        <h1 class="header-h1">Stinnett Photography</h1>
+        <h3 id="scroll-h3">Scroll down</h3>
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="instagram-container">
+        <!-- LightWidget WIDGET -->
+        <!-- LightWidget WIDGET -->
+        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+        <iframe
+          src="//lightwidget.com/widgets/d8d35efff85157a0a98810750de64963.html"
+          scrolling="no"
+          allowtransparency="true"
+          class="lightwidget-widget"
+          style="width: 80%; border: 0; overflow: hidden"
+        ></iframe>
+      </div>
+      <div class="services-container">
+        <div class="services-image-container">
+          <div class="services">
+            <img src="/imgs/index/portraits.webp" alt="" />
+            <div class="services-text"><h1>Portraits</h1></div>
+          </div>
+          <div class="services">
+            <img src="/imgs/index/special-occasions.webp" alt="" />
+            <div class="services-text"><h1>Special Occasions</h1></div>
+          </div>
+          <div class="services">
+            <img src="/imgs/index/engagements.webp" alt="" />
+            <div class="services-text"><h1>Engagements</h1></div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-container">
+        <h1>Questions? Requests? Let's connect</h1>
+        <form
+          class="contact-form"
+          action="https://formsubmit.co/erik.stinnett@icloud.com"
+          method="POST"
+        >
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Message Me</button>
+        </form>
+      </div>
+      <footer>
+        <h1>Stinnett Photography</h1>
+        <div class="footer-containers">
+          <div class="footer-left-container">
+            <div class="footer-links" id="footer-left-links">
+              <a href="">Home</a>
+              <a href="">Gallery</a>
+              <a href="">About</a>
+              <a href="">Services</a>
+              <a href="">Prints</a>
+            </div>
+          </div>
+          <div class="footer-right-container">
+            <div class="footer-links" id="footer-right-links">
+              <a href="https://www.instagram.com/erik.stinnett"
+                ><img src="/imgs/static/instagram-icon-white.svg" alt="" />
+                <span>erik.stinnett</span>
+              </a>
+              <a href=""
+                ><img src="/imgs/static/email-icon-white.svg" alt="" />
+                <span>erik.stinnett@icloud.com</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="/source/scripts/nav.js"></script>
+  </body>
 </html>

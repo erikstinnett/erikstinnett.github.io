@@ -1,0 +1,75 @@
+body {
+  background-image: url("/imgs/about/about-me-background-horiz.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 40%;
+  background-attachment: fixed; /* Consider removing for mobile issues */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+#about-me {
+  margin: 8% auto;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.6); /* subtle overlay */
+  color: white;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  font-size: 1.25rem;
+  line-height: 1.8;
+}
+.top-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.bottom-container {
+  display: flex;
+  flex-direction: row; /* ensures side-by-side layout */
+  align-items: center;
+  justify-content: center;
+  gap: 2rem; /* adds space between image and text */
+  margin-bottom: 2rem;
+  flex-wrap: wrap; /* lets it wrap gracefully on smaller screens */
+}
+
+.profilepic {
+  max-width: 350px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.bottom-container p {
+  flex: 1; /* lets text take up remaining space */
+  min-width: 250px; /* prevents text from squishing too much */
+}
+/* Ensure full-page flex layout */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main content should grow and push footer down */
+.main-container {
+  flex: 1;
+}
+
+/* Footer styles */
+footer {
+  margin-top: auto; /* pushes footer to bottom */
+  background-color: black; /* or your theme color */
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
