@@ -98,12 +98,12 @@
 }
 .services img {
   width: 100%;
-  height: auto; /* ✅ keep natural aspect ratio */
-  max-height: 350px; /* ✅ prevent super tall cards */
+  height: auto;
+  max-height: 550px;
   object-fit: cover;
   display: block;
 }
-/* Keep the dark overlay for readability */
+
 .services::after {
   content: "";
   position: absolute;
@@ -180,7 +180,7 @@
     align-items: center;
   }
   .services img {
-    max-height: 250px;
+    max-height: 50px;
   }
 
   .services {
